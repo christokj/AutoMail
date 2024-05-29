@@ -5,7 +5,7 @@ const mailRoutes = require('./routes/mailRoutes');
 const app = express();
 
 app.use(cors({
-  origin: 'https://autoMail.vercel.app',
+  origin: 'https://automail-christo.vercel.app',
   credentials: true
 }));
 
