@@ -6,6 +6,8 @@ const app = express();
 
 app.use(cors({
   origin: 'https://automail-christo.vercel.app',
+  methods: 'GET,POST,PUT,DELETE',
+  allowedHeaders: 'Content-Type',
   credentials: true
 }));
 
